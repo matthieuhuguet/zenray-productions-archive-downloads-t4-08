@@ -1,0 +1,4 @@
+# Untitled
+
+: do while
+ 1: int main(void){    int n; // Declare variable n before the loop        // Prompt the user for the size of the square    do    {        n = get_int("Size: ");    }    while (n < 1); // Keep prompting until a positive number is entered     // Rest of the code...}
