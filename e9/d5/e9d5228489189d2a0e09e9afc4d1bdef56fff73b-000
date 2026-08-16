@@ -1,0 +1,16 @@
+# Untitled
+
+Loops: Lorsque vous appelez meow(3), vous fournissez la valeur 3 à n, et ensuite la boucle for utilise la variable i comme un compteur pour contrôler le nombre d'itérations. Donc, c'est i qui détermine combien de fois le message "meow" sera affiché, en utilisant la valeur que vous avez fournie à n lors de l'appel de la fonction.
+: #include <stdio.h>
+void meow(int n);
+int main(void)
+{
+    meow(0);
+}
+void meow(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("meow\n");
+    }
+}
