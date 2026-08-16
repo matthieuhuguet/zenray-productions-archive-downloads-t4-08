@@ -1,0 +1,8 @@
+﻿Loops,Property,Fichiers
+"start, expression, increment",,"PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2022.png, PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2023.png"
+Recapwhile = unknowndo-while = unknown but at least 1for = repeat for integer number of time,,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2021.png
+nombre continu (float),"Un nombre pouvant prendre n'importe quelle valeur dans une plage, y compris des valeurs fractionnaires ou décimales.",
+nombre discret (int),"Un nombre entier sans parties fractionnaires, qui peut être compté individuellement.",
+Repeat until the boolean-expr is false,,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2026.png
+"for loopsfor (int i = 0; i < 10; i++)i = [-∞, 10)0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.",,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2024.png
+"Do while loopwill execute the code at least one timeAnd then if the boolean expression keep true, repeat the process until false.",,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2025.png
