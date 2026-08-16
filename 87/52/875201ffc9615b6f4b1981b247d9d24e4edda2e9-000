@@ -1,0 +1,8 @@
+﻿Titre,Property," 1",Fichiers
+,,,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2093.png
+,Exercice Create a right aligned Pyramid program,,
+,Passing argumentprint_row(i + 1);for pyramid ######,"#include <stdio.h>#include <cs50.h>void print_row(int length);int main(void){    int height = get_int(""Height :"");    for (int i = 0; i < height; i++)    {        print_row(i + 1);    }}void print_row(int length){    for (int j = 0; j < length; j++)    {        printf(""#"");    }    printf(""\n"");}",
+,Variable set from function,Copy paste the function name type and argument.,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2094.png
+,,,PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2095.png
+,for (j = 0; j < 4; j++)le programme vérifie la première condition de la boucle soit j=0 puis continue la boucle.,"Initialisation, Condition, Increment||Decrement.",
+,Focus on readability,,"PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2096.png, PORTFOLIO%20PART%20V%202024%20Houdini%203D%20&%20Code%20Tech%20Lesso/image%2097.png"
