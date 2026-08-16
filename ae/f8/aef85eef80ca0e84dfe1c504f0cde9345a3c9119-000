@@ -1,0 +1,3 @@
+# Distance
+
+: Computes the distance between points in an image, often used to generate patterns or gradients based on spatial relationships. This can be used for creating bevel effects or simulating shadows and depth in textures.
