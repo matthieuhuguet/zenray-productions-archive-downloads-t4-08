@@ -1,0 +1,66 @@
+# spotify clouded
+
+Created: September 10, 2025 11:04 AM
+Update: September 10, 2025 1:32 PM
+status: Done
+
+cloud your personal library on spotify
+
+Peu importe le fichiers.
+
+i chose to convert and store my files in aac 256 kb/s: excellent quality, lightweight, and seamless across windows, mac, ios, and android. full settings: aac, 44.1 kHz, 256 kb/s, container m4a.
+
+## fastest method : ffmpeg
+
+**but:** convertir tout en `.m4a` aac 256 kb/s, métadonnées et jaquettes conservées quand dispo.
+
+**windows: create `convert_to_m4a.bat` dans le dossier musiques drag and drop the bat file and run it.**
+
+```bash
+@echo off
+for %%F in ("*.mp3" "*.wav" "*.flac") do (
+  ffmpeg -hide_banner -loglevel error -i "%%F" ^
+    -map_metadata 0 -map 0:a -map 0:v? ^
+    -c:a aac -b:a 256k -ar 44100 ^
+    -c:v copy -disposition:v attached_pic "%%~dpnF.m4a"
+)
+
+```
+
+![image.png](spotify%20clouded/image.png)
+
+Longer method but with Graphic User Interface use Adobe Media Encoder
+
+![image.png](spotify%20clouded/image%201.png)
+
+i use the mpeg4 preset and export audio only, with aac vbr, 44.1 kHz, stereo, high quality, 256 kbps. the issue is that the files come out as .mp4. you’ll need to change the extension to .m4a, which you can do with PowerRename or any batch renaming tool. the drawback of using a gui is that it adds extra steps if you have to rename every file from .mp4 to .m4a, which i don’t recommend.
+
+![image.png](spotify%20clouded/image%202.png)
+
+*In media encoder you will notice .aac audio (mpeg-2). But it is outdated, less efficient at the same bitrate, and less compatible across platforms and cannot retain artwork images or rich metadata compared to .m4a (aac in mpeg-4).*
+
+on pc or mac, enable *local files* in spotify settings and add the folder where your music is stored. spotify will automatically detect all subfolders.
+
+![image.png](spotify%20clouded/image%203.png)
+
+i recommend adding your music to a drive: once uploaded, you can simply download it on any device and spotify will read it. formats like flac or wav are not supported, so stick to m4a.
+
+You Will find local files.
+
+![image.png](spotify%20clouded/image%204.png)
+
+![image.png](spotify%20clouded/image%205.png)
+
+on phone, go to *settings › app and devices › enable local audio files*. 
+
+”
+
+![IMG_8391.PNG](spotify%20clouded/IMG_8391.png)
+
+![IMG_8390.PNG](spotify%20clouded/IMG_8390.png)
+
+![IMG_8389.PNG](spotify%20clouded/IMG_8389.png)
+
+![Screenshot 2025-09-10 at 11.19.53.jpeg.png](spotify%20clouded/Screenshot_2025-09-10_at_11.19.53.jpeg.png)
+
+then open your playlist: if your phone and computer are on the same wifi, hit the green down arrow (download) spotify will sync and download your local files to the phone. if that doesn’t work, you can add them manually — with itunes via usb on iphone, or by copying into the music folder on android.
