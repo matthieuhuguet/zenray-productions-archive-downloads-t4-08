@@ -1,0 +1,44 @@
+# Animation Modular Control Rig & Technos : AccuRig / Reallusion
+
+Animation Modular Control Rig
+
+Select multiple socket with L-Shift
+
+Y = Toggle Socket Visibility
+
+Dégrossir l’aspect du control rig, pour l’instant c’est juste plug and play certaines animations.
+
+Listes de technologie : Voice over : Eleven Labs pour l’anglais. Natural Readers pour le japonais réduire à 0.94 speed pour un son plus doux et agréable. Reallusion / Metahuman / Live Link Face / MetaHuman Performance : https://dev.epicgames.com/documentation/en-us/metahuman/audio-driven-animation-for-metahuman
+
+![image.png](../../../../../../Components%20Old/softwares_learning/Unreal/Mold3D%20Studio%20-%20Slay/Animation%20Modular%20Control%20Rig/image.png)
+
+**Plan d’apprentissage sur 14 jours – Modular Control Rig (Animation, Rig, Mouvement, Curves, Caméra)** 
+
+Solution clé en main : Reallusion / Chaine Youtube 
+
+![image.png](../../../../../../Components%20Old/softwares_learning/Unreal/Mold3D%20Studio%20-%20Slay/Animation%20Modular%20Control%20Rig/image%201.png)
+
+Apprendre les fondamentaux 80% et ensuite juste itérer
+
+- **Fondamentaux solides** (Gnomon Workshop + Docs UE)
+- **Contrôle dans Unreal** (Modular Control Rig, Sequencer)
+- **Techniques avancées d’animation** (Motion Matching, ajustement de courbes)
+- **Emergence IA** (Cascadeur, DeepMotion) pour accélérer le prototypage
+- **Références de l’industrie** (GDC, Epic Learning Portal) pour viser un niveau AAA
+
+| Jour | Objectif & Sous-compétence(s) | Contexte Freelance & Actions (1h max) | Ressources | Résultat Attendu | Astuce Motivation |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Découvrir l’interface et la documentation (Rig) | **Contexte** : Le client veut un rig de base. **Actions** :- Lire doc UE5.3 (30 min)- Tuto vidéo intro Control Rig (30 min) | Docs UE5.3, YT Unreal Engine | Compréhension du pipeline de base | **Focus :** Imaginez la fluidité future quand vous saurez où tout se trouve. |
+| 2 | Importer un perso riggé (Rig, Mouvement) | **Contexte** : Le client fournit un modèle non riggé. **Actions** :- Rig via AccuRig (30 min)- Import dans UE, vérifier naming (30 min) | YT Reallusion AccuRig, Doc import skeleton UE | Personnage riggé prêt à l’emploi | **Motivation :** Visualisez le gain de temps futur en maîtrisant cette étape critique. |
+| 3 | Créer un rig simple (Rig) | **Contexte** : Le client veut un test de rig fonctionnel. **Actions** :- Créer Control Rig bipède (30 min)- Ajouter contrôleurs IK/FK (30 min) | Quick Start Control Rig (UE Docs) | Rig manipulable simple | **Focus :** Chaque contrôleur ajouté est une brique vers une animation maîtrisée. |
+| 4 | Explorer le Modular Control Rig (Rig) | **Contexte** : Le client souhaite un rig modulable. **Actions** :- Étudier FABRIK/CCDIK (30 min)- Intégrer modules préfabriqués (30 min) | Winnie Hsu, Omnomnom Studio, Discord Unreal | Rig modulable pour plusieurs persos | **Motivation :** Vous ouvrez la porte à des rigs plus rapides, plus évolutifs. |
+| 5 | Première animation simple (Animation, Mouvement) | **Contexte** : Le client veut un cycle de marche test. **Actions** :- Créer séquence dans Sequencer (30 min)- Poser clés, ajuster tangentes (30 min) | Epic Games Learning Portal, YT Ryan Laley | Cycle de marche lisible dans UE | **Focus :** Pensez au plaisir de voir vos persos prendre vie sous vos doigts. |
+| 6 | Jouer avec les Curves (Animation, Curves) | **Contexte** : Le client veut des transitions plus fluides. **Actions** :- Ajuster les courbes d’animation (30 min)- Tester différentes interpolations (30 min) | Docs UE Animation Curves | Transitions douces et professionnelles | **Motivation :** Les courbes sont la palette secrète d’un animateur raffiné. |
+| 7 | Animer la Caméra (Caméra, Animation) | **Contexte** : Le client veut une présentation dynamique du rig. **Actions** :- Placer une caméra (30 min)- Animer un léger travelling autour du perso (30 min) | Docs Sequencer Caméra UE | Mise en scène impactante | **Focus :** Imaginez la scène finale comme un mini-film pro. |
+| 8 | Optimiser le Rig (Rig) | **Contexte** : Le client note des lenteurs. **Actions** :- Analyser blueprint rig (30 min)- Réduire nodes inutiles (30 min) | Unreal Forums (2024), Docs IK | Rig plus léger, fluide | **Motivation :** Moins de friction technique, plus de temps pour créer. |
+| 9 | Réutiliser le Rig (Rig, Mouvement) | **Contexte** : Nouveau perso similaire, rig cohérent. **Actions** :- Retargeter rig existant (30 min)- Vérifier cohérence (30 min) | Docs Retargeting UE | Rig réutilisable, gain de temps | **Focus :** Chaque personnage riggé plus vite = plus de projets menés de front. |
+| 10 | Affiner l’Animation (Animation, Curves) | **Contexte** : Le client veut un saut réaliste. **Actions** :- Animer un saut (30 min)- Ajuster courbes pour naturel (30 min) | Epic Portal, YT Ryan Laley | Animation crédible du saut | **Motivation :** Vous créez l’illusion de la gravité, du poids et du réalisme. |
+| 11 | Caméra & Animation coordonnées (Caméra, Animation) | **Contexte** : Prévisualisation plus cinématographique. **Actions** :- Caméra suit le perso en saut (30 min)- Synchroniser timing cam/perso (30 min) | Docs Sequencer Caméra | Scène immersive et cohérente | **Focus :** Votre sens du timing crée une expérience plus vivante. |
+| 12 | Troubleshooting (Rig, Mouvement) | **Contexte** : Le client signale des déformations. **Actions** :- Identifier le problème IK (30 min)- Tester solveurs alternatifs (30 min) | Unreal Forums 2024, Discord | Savoir corriger rapidement | **Motivation :** Chaque problème résolu renforce votre confiance. |
+| 13 | Contexte complet (Mouvement, Caméra) | **Contexte** : Le client veut voir le perso dans un décor simple. **Actions** :- Import décor basique (30 min)- Animer perso se déplaçant dans ce contexte (30 min) | Marketplace UE (assets gratuits) | Mise en contexte visuelle réaliste | **Focus :** Vous placez vos animations dans un univers crédible, comme un film. |
+| 14 | Mini-projet final (Animation, Rig, Mouvement, Curves, Caméra) | **Contexte** : Le client veut une démo finale (marche, saut, caméra dynamique). **Actions** :- Créer une courte séquence complète (1h) | Toutes les ressources précédentes | Démonstration globale de compétences | **Motivation :** Cette dernière étape rassemble tout, preuve concrète de votre maîtrise. |
