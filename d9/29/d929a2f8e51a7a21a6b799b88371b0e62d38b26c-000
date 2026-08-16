@@ -1,0 +1,4 @@
+# Blur HQ
+
+Description: Applies a high-quality gaussian blur to its input, similar to the gaussian blur filter in Photoshop, but with higher quality and slower calculation. The quality level of the blur can be customized.
+Fichiers: ../image%20156.png
