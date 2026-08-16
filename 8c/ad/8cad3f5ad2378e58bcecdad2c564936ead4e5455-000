@@ -1,0 +1,22 @@
+# core_gameplay_loops
+
+**cœur du jeu :** action-aventure, combat exigeant/gratifiant (mouvements, timing). exploration/découverte.
+
+**inspiration :**
+
+- **combat :** black myth wukong (précision, fluidité), fromsoftware (sekiro, dark souls - difficulté maîtrisée).
+- **exploration :** zelda: breath of the wild/totk (liberté, découverte), transposé linéaire.
+
+**mécaniques clés :**
+
+- **combat bâton :** attaques légères/lourdes, combos, esquive, parade/contre-attaque.
+- **compétences bâton :** transformations temporaires (longue/courte portée), consomme ressource.
+- **progression :** xp (ennemis), niveaux (stats), arbre compétences (simplifié).
+- **exploration :** chemins alternatifs, objets cachés (ressources, lore).
+- **point de repos :** sanctuaires (feux de camp dark souls) : repos, soin, amélioration. ennemis réapparaissent.
+
+**boucle de gameplay (simplifiée) :** explorer > combattre > xp/ressources > sanctuaire > mini-boss > zone suivante.
+
+**à faire :** système dégâts (joueur/ennemi), barres vie/énergie, 1-2 compétences bâton, xp/niveau basique.
+
+gameplay
