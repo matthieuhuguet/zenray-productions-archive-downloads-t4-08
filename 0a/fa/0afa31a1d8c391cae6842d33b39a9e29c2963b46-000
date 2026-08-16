@@ -1,0 +1,4 @@
+# Directional Warp
+
+: The "Directional Warp" node in Substance Designer distorts an input image based on the direction and intensity specified. This node requires two inputs: the image to be warped and a grayscale image that defines the warp direction and intensity. The intensity of the warp effect can be adjusted, allowing for dynamic and directional texture modifications. This tool is particularly useful for creating effects like wind or water flow on textures, simulating movement or distortion in a controlled direction.
+Fichiers: ../compressed_clipboard_image%2015.jpg
